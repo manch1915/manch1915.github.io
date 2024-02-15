@@ -1,0 +1,114 @@
+<html lang="hy">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            height: 100vh;
+            margin: 0;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .reveal-text {
+            display: none;
+            text-align: center;
+            color: #611ca5;
+            font-weight: bold;
+            font-size: 16px;
+            text-shadow: 0 0 2px #ff00a8 ;
+        }
+        .flex{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .animated{
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%) translateY(-100%);
+            opacity: 0;
+            transition: opacity 1s, transform 1s;
+        }
+
+        .animated.active {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0%);
+        }
+    </style>
+    <title>ASTXS GANDZS</title>
+</head>
+<body>
+<main>
+<div id="stars"></div>
+<div id="stars2"></div>
+<div id="stars3"></div>
+<div id="title">
+    <h1 style="font-size: 26px">Արդյոք ձերդ քաղցր մեծությունը կների մեղաորիս, գորձած անգութ մեղքերիս համար?</h1>
+    <div class="flex">
+        <div>
+            <input class="step-1" checked type="radio" id="step-1" name="button-step" value="step-1">
+            <input class="step-2" type="radio" id="step-2" name="button-step" value="step-2">
+            <input class="step-3" type="radio" id="step-3" name="button-step" value="step-3">
+            <input class="step-4" type="radio" id="step-4" name="button-step" value="step-4">
+            <input class="step-5" type="radio" id="step-5" name="button-step" value="step-5">
+            <input class="step-6" type="radio" id="step-6" name="button-step" value="step-6">
+            <input class="step-7" type="radio" id="step-7" name="button-step" value="step-7">
+            <a href="javascript:void(0);" title="button">
+                &#9829;
+                <label for="step-1"></label>
+                <label for="step-2"></label>
+                <label for="step-3"></label>
+                <label for="step-4"></label>
+                <label for="step-5"></label>
+                <label for="step-6"></label>
+                <label for="step-7"></label>
+            </a>
+        </div>
+        <button class="troll-btn" style="padding: 13px;border: 1px solid white;border-radius: 20px;background: transparent;  color: #FFF;">No</button>
+
+    </div>
+</div>
+</main>
+<div class="animated">
+    <div class="reveal-text" style="width: 100%; word-break: break-all">
+        JANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN ABRIS GADNZSSSSSSSSSSSSSSSSS JANNNNNNNNNNNNNNNNN JANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNN UTEM QEZZZZZZZZZZZZZZZZZZZZZZZZZZ
+        JANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN ABRIS GADNZSSSSSSSSSSSSSSSSS JANNNNNNNNNNNNNNNNN JANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNN UTEM QEZZZZZZZZZZZZZZZZZZZZZZZZZZ
+        JANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN ABRIS GADNZSSSSSSSSSSSSSSSSS JANNNNNNNNNNNNNNNNN JANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNN UTEM QEZZZZZZZZZZZZZZZZZZZZZZZZZZ
+        JANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN ABRIS GADNZSSSSSSSSSSSSSSSSS JANNNNNNNNNNNNNNNNN JANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNNJANNNNNNNNNNNNNNNNN UTEM QEZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+    </div>
+</div>
+</body>
+<script>
+    document.querySelector(".troll-btn").addEventListener("mouseover", function () {
+        this.style.top = Math.random() * window.innerHeight + 'px';
+        this.style.left = Math.random() * window.innerWidth + 'px';
+    });
+    document.querySelector(".troll-btn").addEventListener("click", function () {
+        alert("ERRORRRRRRRRRRRRR NELZYA")
+    });
+
+    document.querySelectorAll('input[name="button-step"]').forEach(function (radio) {
+        radio.addEventListener('change', function () {
+            if (this.value === 'step-1') {
+                // Hide all text and body content
+                document.querySelector('main').style.display = 'none';
+                document.querySelector('.animated').classList.add('active');
+                document.querySelector('.reveal-text').style.display = 'block';
+                document.querySelector('html').classList.add('active');
+                animate();
+            }
+        });
+    });
+
+
+
+</script>
+</html>
